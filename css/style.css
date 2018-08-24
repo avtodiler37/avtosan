@@ -1,0 +1,13 @@
+* {
+  opacity: 1;
+  color: #111;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Arial, Helvetica, Tahoma, sans-serif; }
+
+html {
+  overflow-y: scroll; }
+
+body {
+  margin: 0;
+  padding: 0; }
