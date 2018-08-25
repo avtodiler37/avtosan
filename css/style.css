@@ -1,13 +1,57 @@
+/***** Common *****/
 * {
-  opacity: 1;
   color: #111;
-  box-sizing: border-box;
   text-decoration: none;
   font-family: Arial, Helvetica, Tahoma, sans-serif; }
-
-html {
-  overflow-y: scroll; }
 
 body {
   margin: 0;
   padding: 0; }
+
+.container {
+  width: 930px; }
+
+.container .row {
+  padding: 10px 0; }
+
+.row div {
+  padding: 0; }
+
+/***** Common *****/
+/***** Header *****/
+header .container .row {
+  border-bottom: 1px solid #dee2e6; }
+  header .container .row h1 {
+    font-size: 40px;
+    color: #555; }
+  header .container .row h2 {
+    font-size: 16px;
+    color: #333; }
+  header .container .row div.center {
+    text-align: center; }
+  header .container .row div img {
+    width: 100%; }
+
+/***** Header *****/
+/***** Main *****/
+main {
+  min-height: calc(100vh - 240px); }
+
+/***** Main *****/
+/***** Footer *****/
+footer {
+  height: 110px;
+  padding-top: 13px;
+  text-align: center; }
+  footer a, footer a:hover {
+    color: #666; }
+  footer .top {
+    border-top: 1px solid #dee2e6; }
+  footer .bottom div {
+    padding-top: 5px;
+    font-size: 14px;
+    color: #999; }
+
+/***** Footer *****/
+/***** Debug *****/
+/***** Debug *****/

@@ -1,15 +1,96 @@
+/***** Common *****/
 * {
-  opacity: 1;
   color: #111;
-  box-sizing: border-box;
   text-decoration: none;
   font-family: Arial, Helvetica, Tahoma, sans-serif;
 }
 
-html {
-  overflow-y: scroll;
-}
 body {
   margin: 0;
   padding: 0;
+  //background: url(/img/background.jpg) no-repeat center center fixed;
+  //-webkit-background-size: cover;
+  //-moz-background-size: cover;
+  //-o-background-size: cover;
+  //background-size: cover;
 }
+
+.container {
+    width: 930px;
+}
+
+.container .row {
+  padding: 10px 0;
+}
+.row div {
+  padding: 0;
+}
+
+$color-bottom: #dee2e6;
+/***** Common *****/
+
+
+/***** Header *****/
+header {
+
+}
+
+header .container .row {
+  border-bottom: 1px solid $color-bottom;
+
+  h1 {
+    font-size: 40px;
+    color: #555;
+  }
+  h2 {
+    font-size: 16px;
+    color: #333;
+  }
+
+  div.center {
+    text-align: center;
+  }
+  div img {
+    width: 100%;
+  }
+}
+/***** Header *****/
+
+
+/***** Main *****/
+main {
+  min-height: calc(100vh - 240px);
+}
+/***** Main *****/
+
+
+/***** Footer *****/
+footer {
+  height: 110px;
+  padding-top: 13px;
+  text-align: center;
+
+  a, a:hover {
+    color: #666;
+  }
+
+  .top {
+    border-top: 1px solid $color-bottom;
+  }
+
+  .bottom div {
+    padding-top: 5px;
+    font-size: 14px;
+    color: #999;
+  }
+}
+/***** Footer *****/
+
+
+/***** Debug *****/
+//.row div {
+//  border: 1px solid #666;
+//  -moz-box-sizing: border-box;
+//  box-sizing: border-box;
+//}
+/***** Debug *****/
