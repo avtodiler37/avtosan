@@ -53,6 +53,12 @@ header .container .row {
   div img {
     width: 100%;
   }
+
+  @media (max-width: 767px) {
+    div img {
+      display: none;
+    }
+  }
 }
 /***** Header *****/
 
@@ -68,7 +74,6 @@ main {
 footer {
   height: 110px;
   padding-top: 13px;
-  text-align: center;
 
   a, a:hover {
     color: #666;
@@ -82,6 +87,7 @@ footer {
     padding-top: 5px;
     font-size: 14px;
     color: #999;
+    text-align: center;
   }
 }
 /***** Footer *****/
@@ -89,7 +95,7 @@ footer {
 
 /***** Debug *****/
 //.row div {
-//  border: 1px solid #666;
+//  border: 1px solid $color-bottom;
 //  -moz-box-sizing: border-box;
 //  box-sizing: border-box;
 //}

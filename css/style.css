@@ -31,6 +31,9 @@ header .container .row {
     text-align: center; }
   header .container .row div img {
     width: 100%; }
+  @media (max-width: 767px) {
+    header .container .row div img {
+      display: none; } }
 
 /***** Header *****/
 /***** Main *****/
@@ -41,8 +44,7 @@ main {
 /***** Footer *****/
 footer {
   height: 110px;
-  padding-top: 13px;
-  text-align: center; }
+  padding-top: 13px; }
   footer a, footer a:hover {
     color: #666; }
   footer .top {
@@ -50,7 +52,8 @@ footer {
   footer .bottom div {
     padding-top: 5px;
     font-size: 14px;
-    color: #999; }
+    color: #999;
+    text-align: center; }
 
 /***** Footer *****/
 /***** Debug *****/
