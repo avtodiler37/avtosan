@@ -5,7 +5,8 @@
   font-family: Arial, Helvetica, Tahoma, sans-serif; }
 
 a, a:hover {
-  color: #000; }
+  color: #000;
+  text-decoration: underline; }
 
 body {
   margin: 0;
@@ -42,7 +43,7 @@ header .container .row {
   header .container .row h1 {
     font-size: 40px;
     color: #555; }
-  header .container .row h1 a:hover {
+  header .container .row h1 a, header .container .row h1 a:hover {
     text-decoration: none; }
   header .container .row h2 {
     font-size: 16px;
