@@ -1,8 +1,11 @@
 /***** Common *****/
 * {
-  color: #111;
+  color: #333;
   text-decoration: none;
   font-family: Arial, Helvetica, Tahoma, sans-serif; }
+
+a, a:hover {
+  color: #000; }
 
 body {
   margin: 0;
@@ -17,6 +20,16 @@ body {
 .row div {
   padding: 0; }
 
+.btn {
+  background: black;
+  border-radius: 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px; }
+
+.btn:hover {
+  opacity: 0.8; }
+
 /***** Common *****/
 /***** Header *****/
 header .container .row {
@@ -24,6 +37,8 @@ header .container .row {
   header .container .row h1 {
     font-size: 40px;
     color: #555; }
+  header .container .row h1 a:hover {
+    text-decoration: none; }
   header .container .row h2 {
     font-size: 16px;
     color: #333; }
@@ -38,16 +53,36 @@ header .container .row {
 /***** Header *****/
 /***** Main *****/
 main {
-  min-height: calc(100vh - 240px); }
+  padding-top: 20px;
+  min-height: calc(100vh - 250px); }
+  main .blockquote {
+    margin-top: 3.5vw; }
+  main .form {
+    height: 135px;
+    border: 1px solid #999;
+    text-align: center; }
+  main .form .list-unstyled {
+    font-size: 24px; }
+  main .modal-content {
+    padding: 10px; }
+    main .modal-content .modal-header {
+      padding-top: 5px;
+      border-bottom: none; }
+    main .modal-content .form-group.label-contacts {
+      text-align: left; }
+  main .center-content {
+    font-size: 40px;
+    text-align: center;
+    line-height: 28px; }
+  main .center-content li {
+    padding-bottom: 25px; }
 
 /***** Main *****/
 /***** Footer *****/
 footer {
-  height: 110px;
-  padding-top: 13px; }
-  footer a, footer a:hover {
-    color: #666; }
+  height: 140px; }
   footer .top {
+    padding-top: 15px;
     border-top: 1px solid #dee2e6; }
   footer .bottom div {
     padding-top: 5px;
