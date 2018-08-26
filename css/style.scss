@@ -1,4 +1,6 @@
 /***** Common *****/
+$color-bottom: #dee2e6;
+
 * {
   color: #333;
   text-decoration: none;
@@ -12,25 +14,19 @@ a, a:hover {
 body {
   margin: 0;
   padding: 0;
-  //background: url(/img/background.jpg) no-repeat center center fixed;
-  //-webkit-background-size: cover;
-  //-moz-background-size: cover;
-  //-o-background-size: cover;
-  //background-size: cover;
 }
 
 .container {
     width: 930px;
+
+  .row {
+    padding: 10px 0;
+  }
 }
 
-.container .row {
-  padding: 10px 0;
-}
 .row div {
   padding: 0;
 }
-
-$color-bottom: #dee2e6;
 
 .btn {
   background: black;
@@ -41,6 +37,17 @@ $color-bottom: #dee2e6;
 }
 .btn:hover {
   opacity: 0.8;
+}
+
+
+@media (max-width: 767px) {
+  body {
+    padding: 0 10px;
+  }
+
+  .container {
+    width: 100%;
+  }
 }
 /***** Common *****/
 
@@ -73,7 +80,7 @@ header .container .row {
   }
 
   @media (max-width: 767px) {
-    div img {
+    div img.left {
       display: none;
     }
   }
@@ -119,6 +126,12 @@ main {
   .center-content li {
     padding-bottom: 25px;
   }
+
+  @media (max-width: 767px) {
+    .center-content {
+      margin-top: 30px;
+    }
+  }
 }
 /***** Main *****/
 
@@ -137,6 +150,12 @@ footer {
     font-size: 14px;
     color: #999;
     text-align: center;
+  }
+
+  @media (max-width: 767px) {
+    .top {
+
+    }
   }
 }
 /***** Footer *****/

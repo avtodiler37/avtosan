@@ -13,9 +13,8 @@ body {
 
 .container {
   width: 930px; }
-
-.container .row {
-  padding: 10px 0; }
+  .container .row {
+    padding: 10px 0; }
 
 .row div {
   padding: 0; }
@@ -30,6 +29,12 @@ body {
 .btn:hover {
   opacity: 0.8; }
 
+@media (max-width: 767px) {
+  body {
+    padding: 0 10px; }
+
+  .container {
+    width: 100%; } }
 /***** Common *****/
 /***** Header *****/
 header .container .row {
@@ -47,7 +52,7 @@ header .container .row {
   header .container .row div img {
     width: 100%; }
   @media (max-width: 767px) {
-    header .container .row div img {
+    header .container .row div img.left {
       display: none; } }
 
 /***** Header *****/
@@ -76,6 +81,9 @@ main {
     line-height: 28px; }
   main .center-content li {
     padding-bottom: 25px; }
+  @media (max-width: 767px) {
+    main .center-content {
+      margin-top: 30px; } }
 
 /***** Main *****/
 /***** Footer *****/
