@@ -7,14 +7,14 @@ $color-bottom: #dee2e6;
   font-family: Arial, Helvetica, Tahoma, sans-serif;
 }
 
-a, a:hover {
-  color: #000;
-  text-decoration: underline;
-}
-
 body {
   margin: 0;
   padding: 0;
+
+  a, a:hover {
+    color: #000;
+    text-decoration: underline;
+  }
 }
 
 .container {

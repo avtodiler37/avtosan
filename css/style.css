@@ -4,13 +4,12 @@
   text-decoration: none;
   font-family: Arial, Helvetica, Tahoma, sans-serif; }
 
-a, a:hover {
-  color: #000;
-  text-decoration: underline; }
-
 body {
   margin: 0;
   padding: 0; }
+  body a, body a:hover {
+    color: #000;
+    text-decoration: underline; }
 
 .container {
   width: 930px; }
