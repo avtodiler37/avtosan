@@ -12,7 +12,7 @@ body {
     text-decoration: underline; }
 
 .container {
-  width: 930px; }
+  max-width: 930px; }
   .container .row {
     padding: 10px 0; }
 
@@ -31,10 +31,7 @@ body {
 
 @media (max-width: 767px) {
   body {
-    padding: 0 10px; }
-
-  .container {
-    width: 100%; } }
+    padding: 0 10px; } }
 /***** Common *****/
 /***** Header *****/
 header .container .row {
