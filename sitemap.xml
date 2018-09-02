@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+	<loc>https://avtosan.kiev.ua/</loc>
+	<lastmod>2018-09-02T22:15:49+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://avtosan.kiev.ua/page/buy-sell-car</loc>
+	<lastmod>2018-09-02T22:15:49+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://avtosan.kiev.ua/page/car-for-sale</loc>
+	<lastmod>2018-09-02T22:15:50+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://avtosan.kiev.ua/page/cars-available</loc>
+	<lastmod>2018-09-02T22:15:51+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://avtosan.kiev.ua/page/contacts</loc>
+	<lastmod>2018-09-02T22:15:51+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://avtosan.kiev.ua/page/credit</loc>
+	<lastmod>2018-09-02T22:15:52+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+</urlset>
