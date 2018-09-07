@@ -10,10 +10,8 @@ body {
   body a, body a:hover {
     color: #000;
     text-decoration: underline; }
-  body .container {
-    max-width: 940px; }
-    body .container .row {
-      padding: 10px 0; }
+  body .container .row {
+    padding: 10px 0; }
 
 .row div {
   padding: 0; }
